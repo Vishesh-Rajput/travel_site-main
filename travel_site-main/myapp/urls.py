@@ -11,6 +11,7 @@ path("about.html",views.about,name='about'),
 path("contact.html",views.contact,name='contact'),
 path("package.html",views.package,name='package'),
 path("service.html",views.service,name='service'),
+path("blog.html",views.blog,name='Blogs'),
 
 # path("service",views.service,name='service'),
 # path("contact",views.contact,name='contact'),
