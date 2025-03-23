@@ -1,9 +1,9 @@
 from django.contrib import admin
 from django.urls import path 
 from myapp import views
-admin.site.site_header = "Vishesh's Admin"
-admin.site.site_title = "Vishesh's Admin Portal"
-admin.site.index_title = "Welcome to Vishesh's Researcher Portal"
+admin.site.site_header = " Admin Page"
+admin.site.site_title = " Admin Portal"
+admin.site.index_title = "Welcome to SARTHI's database Portal"
 urlpatterns = [
 
 path("",views.index,name='index'),
